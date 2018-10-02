@@ -1,0 +1,15 @@
+{
+    "name": "wilder/quete_simple_mvc",
+    "authors": [
+        {
+            "name": "Lauriane Chauvet",
+            "email": "pixelleart@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
