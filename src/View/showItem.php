@@ -7,7 +7,7 @@
 <ul>
     <li>Id : <?= $item['id'] ?></li>
 </ul>
-<a href='index.php?route=items'>Back to list</a>
+<a href='/'>Back to list</a>
 </main>
 </body>
 </html>
