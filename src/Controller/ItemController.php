@@ -70,15 +70,15 @@ class ItemController extends AbstractController
 
         //vérification des champs
         if($_SERVER['REQUEST_METHOD'] === "POST"){
-            if(empty($_POST['title'])){
-                $error ['title'] = "Pourquoi enregistrer un Item sans nom?";
-            }else{
-                $title = $this->verif($_POST['title']);
-            }
+           if(empty($_POST['title'])){
+               $error ['title'] = "Pourquoi enregistrer un Item sans nom?";
+           }else{
+               $title = $this->verif($_POST['title']);
+           }
             if(empty($error)){
                 $item->setTitle($_POST['title']);
                 $itemManager->update($item);
-                return header('Location : /');
+                header('Location: /');
             }
         }
         return $this->twig->render('editItem.html.twig', ['error' => $error, 'item' => $item]);
