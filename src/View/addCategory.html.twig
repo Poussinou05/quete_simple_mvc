@@ -1,0 +1,15 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}
+    Add Category!!!
+{% endblock %}
+
+{% block content %}
+    <form method="post">
+        <label for="name">Nom de la catégorie : </label>
+        <input type="text" name="name" value="{{ category.name }}" placeholder="Titre de votre Item" id="title" >
+        <input type="submit" style="..." value="Go!">
+        <br>
+        <span>{{ error.name }}</span>
+    </form>
+{% endblock %}

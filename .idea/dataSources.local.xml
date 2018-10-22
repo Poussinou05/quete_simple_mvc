@@ -7,5 +7,15 @@
       <first-sync>true</first-sync>
       <user-name>lauriane</user-name>
     </data-source>
+    <data-source name="simplemvc@localhost" uuid="7116b5d8-9265-4ca1-87a1-2e022d87b198">
+      <database-info product="MySQL" version="5.7.23-0ubuntu0.18.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )" family="MYSQL" exact-version="5.7.23">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>lauriane</user-name>
+      <introspection-schemas>*:@</introspection-schemas>
+    </data-source>
   </component>
 </project>

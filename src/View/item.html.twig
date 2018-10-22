@@ -10,9 +10,11 @@
     <ul>
         {% for item in items %}
             <li>{{ item.title }}</li>
+        <a href="/item/edit/{{ item.id }}">Update</a>
+        <a href="/item/delete/{{ item.id }}">Delete</a>
         {% endfor %}
     </ul>
 </section>
-
+<a href="/item/add" style="text-decoration:none"><input type="submit" style="..." value="Add a Item"></a>
 {% endblock %}
 

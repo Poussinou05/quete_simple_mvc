@@ -10,9 +10,11 @@
     <ul>
         {% for category in categories %}
             <li>{{ category.name }}</li>
+            <a href="/category/edit/{{ category.id }}">Update</a>
+            <a href="/category/delete/{{ category.id }}">Delete</a>
         {% endfor %}
     </ul>
 </section>
-
+    <a href="/category/add" style="text-decoration: none"><input type="submit" value="Add a category"></a>
 {% endblock %}
 

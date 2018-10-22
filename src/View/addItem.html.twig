@@ -1,0 +1,17 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}
+    Add Items!!!
+{% endblock %}
+
+{% block content %}
+    <form method="post">
+        <label for="title">Titre de l'item : </label>
+        <input type="text" name="title" value="{{ item.title }}" autofocus placeholder="Titre de votre Item" id="title" >
+        <input type="submit" style="..." value="Go!">
+        <br>
+        <span>{{ error.title }}</span>
+    </form>
+
+    <a href="/">Back</a>
+{% endblock %}

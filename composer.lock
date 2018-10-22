@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d8c4984c26bbbd9a84864e3cef7c6db1",
+    "content-hash": "728ecf49250d43c28a04585b19a148de",
     "packages": [
         {
             "name": "nikic/fast-route",
@@ -51,6 +51,48 @@
                 "routing"
             ],
             "time": "2018-02-13T20:26:39+00:00"
+        },
+        {
+            "name": "php-kit/ext-pdo",
+            "version": "1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-kit/ext-pdo.git",
+                "reference": "b94bf1805b75ba114e4a216dbca441ca7dc893be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-kit/ext-pdo/zipball/b94bf1805b75ba114e4a216dbca441ca7dc893be",
+                "reference": "b94bf1805b75ba114e4a216dbca441ca7dc893be",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpKit\\ExtPDO\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cláudio Silva",
+                    "email": "claudio.silva@impactwave.com"
+                },
+                {
+                    "name": "Impactwave",
+                    "email": "impactwave@impactwave.com",
+                    "homepage": "http://impactwave.com"
+                }
+            ],
+            "description": "An extension to the standard PHP PDO API",
+            "homepage": "https://github.com/php-kit/ext-pdo",
+            "time": "2018-04-06T12:17:27+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",

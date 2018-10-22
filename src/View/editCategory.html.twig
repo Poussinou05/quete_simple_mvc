@@ -1,0 +1,15 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    <h1>Edit Category {{ category.name }}</h1>
+
+    <form method="post">
+        <label for="name">Nom de la category : </label>
+        <input type="text" name="name" value="{{ category.name }}" autofocus placeholder="Titre de votre Category" id="name" >
+        <input type="submit" style="..." value="Go!">
+        <br>
+        <span>{{ error.name }}</span>
+    </form>
+
+    <a href="/categories">Back</a>
+{% endblock %}
